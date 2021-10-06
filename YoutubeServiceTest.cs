@@ -16,8 +16,6 @@ namespace IutubiTest
 
         public YoutubeServiceTest()
         {
-            Environment.SetEnvironmentVariable("API_KEY", "AIzaSyBSxGeb69MEDiGpl1dkWwEt6G-W7w52FhQ");
-            //Environment.SetEnvironmentVariable("CONNECTION_STRING", "mongodb://admin:051190@localhost:27017/Iutubi");
             _youtubeService = new YoutubeService(_mockYoutubeItemDB);
         }
         
