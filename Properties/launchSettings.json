@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IutubiTest": {
+      "commandName": "Project",
+      "environmentVariables": {}
+    }
+  }
+}
